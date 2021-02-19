@@ -43,7 +43,6 @@ stages:
         cd server
         npm install
       displayName: 'npm install client server'
-
     - task: ArchiveFiles@2
       displayName: 'Archive files'
       inputs:
