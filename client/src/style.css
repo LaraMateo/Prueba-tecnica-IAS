@@ -1,0 +1,179 @@
+body {
+  background: #ffd439;
+}
+
+.main-page {
+  display: grid;
+}
+
+.reporte-servicio {
+  color: #0a2687;
+  font-weight: bold;
+  font-family: "Arial";
+}
+
+.calculo-horas {
+  color: #0a2687;
+  font-weight: bold;
+  font-family: "Arial";
+}
+
+.calculo {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.logo-link {
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.button {
+  background: #0a2687;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border: 10px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  width: 300px;
+
+  border-radius: 5px;
+}
+
+.button-reporte {
+  grid-row: 1;
+}
+
+.button-calculo {
+  grid-row: 2;
+}
+
+.button p {
+  font-family: "Arial";
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  user-select: none;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.sercicio-ul {
+  display: grid;
+  font-family: "Arial";
+  list-style-type: none;
+}
+
+.sercicio-ul li.id-tecnico {
+  grid-row: 1;
+  margin: 4vh;
+}
+
+.sercicio-ul li.id-servicio {
+  grid-row: 2;
+  margin: 4vh;
+}
+
+.sercicio-ul li.initial-date {
+  grid-row: 3;
+  margin: 4vh;
+}
+
+.initial-date input {
+  width: 33vh;
+}
+
+.sercicio-ul li.final-date {
+  grid-row: 3;
+  margin: 4vh;
+}
+
+.final-date input {
+  width: 33vh;
+}
+
+.send-report {
+  margin: 3vh;
+  padding: 3vh;
+  cursor: pointer;
+  background-color: #0a2687;
+  font-size: 3vh;
+  text-align: center;
+  border-radius: 1vh;
+  text-decoration: none;
+  outline: none;
+  color: white;
+}
+
+.send-report:hover {
+  opacity: 0.7;
+}
+
+.input-text {
+  background: transparent;
+  border: none;
+  border-bottom: 1.2px solid #0a2687;
+  color: black;
+  font-family: "Arial";
+  font-size: medium;
+  margin-left: 1.5vh;
+}
+
+.calculo-ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.result {
+  display: grid;
+  font-family: "Arial";
+  list-style-type: none;
+}
+
+.result li {
+  margin: 1vh;
+}
+
+.calculo-ul li.id-tecnico {
+  margin-right: 3vh;
+}
+
+.calculo-ul li.day {
+  margin-left: 3vh;
+}
+
+.day input {
+  width: 33vh;
+}
+
+.send-query {
+  margin: 3vh;
+  margin-left: 20vh;
+  width: 35vh;
+  padding: 3vh;
+  cursor: pointer;
+  background-color: #0a2687;
+  font-size: 3vh;
+  text-align: center;
+  border-radius: 1vh;
+  text-decoration: none;
+  outline: none;
+  color: white;
+}
+
+.send-query:hover {
+  opacity: 0.7;
+}
